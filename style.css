@@ -1,0 +1,22 @@
+
+body {
+    background-color: greenyellow;
+}
+.container-1,.container-2{
+    width: 75%;
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+}
+.flex-box-color,.flex-box-rps {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+.flex-box-rps img:hover{
+    box-shadow: 2px 8px 50px rgba(37,50,233,1);
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container-1">
+        <h1>Challange 1: Changing colors</h1>
+        <div class="flex-box-color">
+            <form action="">
+                <select name="backdrop" onchange="colorChange(this)">
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="reset">Reset</option>
+                    <option value="random">Random</option>
+                </select>
+            </form>
+            <button class="btn btn-primary">Well</button>
+            <button class="btn btn-danger">yahoo</button>
+            <button class="btn btn-warning">Google</button>
+            <button class="btn btn-success">Facebook</button>
+            
+        </div>
+    </div>
+
+    <div class="container-2">
+        <h1>Challange 2: Rock, Paper and Scissor</h1>
+        <div class="flex-box-rps" id="flex-box-rpsid">
+            <img id="rock" src="rock.jpg" height="150px" width="150px" alt="" onclick="rpsGame(this)">
+            <img id="paper" src="paper.jpg" height="150px" width="150px" alt="" onclick="rpsGame(this)">
+            <img id="scissor" src="scissor.png" height="150px" width="150px" alt="" onclick="rpsGame(this)">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
